@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+
+html {
+  height: 100%;
+  background-image: url("/IWP-Assignment/images/circle.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;background-attachment: fixed;
+}
+
+* {
+  font-family: "Lato", sans-serif;
+  box-sizing: border-box;
+  color: #351e29;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#navbar {
+  display: flex;
+  justify-content: flex-end;
+  position: sticky;
+  padding: 1.2rem;
+  top: 0;
+  left: 0;
+}
+li {
+  list-style: none;
+  display: inline;
+  padding: 1.5rem;
+}
+a:hover {
+  /* color: #99A799; */
+  color: #f2789f;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+a {
+  text-decoration: none;
+}
+
+.heading {
+  text-align: center;
+  padding: 2rem;
+  font-size: 1.5rem;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  transition:  0.3s ease-in-out;
+}
+.card:hover img{
+  transition:  0.3s ease-in-out;
+  filter: blur(0.1px);
+
+}
+img {
+  width: 100%;
+  border-radius: 12px;
+  height: 214px;
+  object-fit: cover;
+  border: 1px solid rgba(89, 89, 89, 0.221);
+  filter: blur(3px);
+}
+
+
+#container {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: auto;
+  margin-top: 10vh;
+}
+
+.card {
+  padding: 1rem;
+  border-radius: 20px;
+  background: #d9d7f1;
+  box-shadow: 
+  20px 20px 39px #c1bfd6, 
+  -20px -20px 39px #f1efff9e;
+  width: 20rem;
+}
+
+.tag {
+  padding: 4px 8px;
+  border: 1px solid #6f6f6f80;
+  border-radius: 50px;
+  color: #788696;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 16px;
+}
+
+p {
+  font-size: 0.95rem;
+  color: #767c83;
+  line-height: 150%;
+  padding-bottom: 10px;
+}
+
+.btn-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  border: none;
+  padding: 12px 24px;
+  border-radius: 50px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #f2789f;
+  /* margin: 0 auto; */
+  display: block;
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+}
+
+button:focus,
+button:hover {
+  background-color: #4A1942;
+  color: #ffffff;
+}
+
+.card-details {
+  padding: 16px 8px 8px 8px;
+}
