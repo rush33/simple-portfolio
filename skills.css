@@ -5,11 +5,12 @@ html {
   font-family: "Lato", sans-serif;
   /* background-color: rgb(201, 233, 160); */
   height: 100%;
-  background-image: url("/IWP-Assignment/images/layer3.svg");
+  background-image: url("/images/layer3.svg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;background-attachment: scroll;
-  background-color: #EAC8CA;
+  background-position: center center;
+  background-attachment: scroll;
+  background-color: #eac8ca;
 }
 * {
   box-sizing: border-box;
@@ -35,7 +36,7 @@ li {
 }
 a:hover {
   color: #bee3db;
-  color: #8D89A6;
+  color: #8d89a6;
   cursor: pointer;
   transition: 0.3s ease-in-out;
 }
@@ -45,7 +46,7 @@ a {
 
 .heading {
   font-family: "Montserrat", sans-serif;
-  color: #89B0AE;
+  color: #89b0ae;
   padding-top: 1.7rem;
   font-size: 1.5rem;
   text-align: center;
@@ -71,9 +72,8 @@ a {
 
 .group {
   border-radius: 36px;
-  background: #EAC8CA;
-box-shadow:  20px 20px 39px #d0b2b4,
-             -20px -20px 39px #ffdee0a7;
+  background: #eac8ca;
+  box-shadow: 20px 20px 39px #d0b2b4, -20px -20px 39px #ffdee0a7;
 
   display: flex;
   flex-direction: column;
@@ -85,7 +85,7 @@ box-shadow:  20px 20px 39px #d0b2b4,
 }
 .group:hover {
   transform: scale(1.2);
-  transition:  0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 p {
   text-align: center;
