@@ -71,8 +71,8 @@ a {
 }
 
 .group {
-  border-radius: 36px;
-  background: #eac8ca;
+  border-radius: 20px;
+  background: #f1d6d8;
   box-shadow: 20px 20px 39px #d0b2b4, -20px -20px 39px #ffdee0a7;
 
   display: flex;
